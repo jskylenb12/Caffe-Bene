@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/*헤더*/
+.hTop{
+    background:#282828;
+    font-size:12px;
+    line-height:40px;
+}
+.hTop a{
+    display:block;
+    color:#fff;
+    padding:0 30px;
+    border-left:1px solid #231F20;
+}
+.engBtn{float:left;}
+.engBtn a{border-right:1px solid #231F20;}
+
+.util{float:right;}
+.util li{
+    float:left;
+}
+.util li img{margin-left:5px;}
+.util li:last-child a{padding-right:0;}
+
+.hBottom{line-height:80px;}
+.hBottom h1{
+    width:150px;
+    height:100%;
+    float:left;
+    background:url(../images/common/logo.jpg) no-repeat center center;
+    text-indent:-9999px;
+    background-size:100%;
+}
+.hBottom h1 a{display:block;}
+
+.gnb{float:right;}
+.gnb li{
+    float:left;
+    padding-left:50px;
+}
+.gnb li a{}
+
+
+/*푸터*/
+#footer{
+    background:#1E1E1E;
+    position:relative;
+    color:#8c8c8c;
+    font-size:12px;
+}
+#footer a{
+    color:#8c8c8c;
+}
+
+.topBtn{
+    width:102px;
+    height:39px;
+    background:url(../images/common/btn_go_top.png) no-repeat;
+    position:absolute;
+    top:-39px;
+    left:50%;
+    margin-left:-51px;
+}
+.topBtn a{
+    display:block;
+    height:100%;
+    padding-left:30px;
+    padding-top:12px;
+    font-size:14px;
+    color:#646464;
+    box-sizing:border-box;
+}
+
+.fTop{
+    background:#282828;
+    padding:50px 0;
+}
+.fTop dl{
+    float:left;
+    margin-right:80px;
+}
+.fTop dt{
+    color:#646464;
+    font-weight:bold;
+    background:url(../images/common/bar_snb.gif) no-repeat left bottom;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    font-size:16px;
+}
+.fTop dd{
+    font-weight:200;
+    line-height:25px;
+}
+
+
+.fBottom{
+    padding:50px 0;
+    position:relative;
+}
+.fBottom a{}
+
+.fLogo{
+    width:180px;
+    height:30px;
+    background:url(../images/common/logo_foot.gif) no-repeat;
+    background-size:100%;
+    text-indent:-9999px;
+    margin-bottom:20px;
+}
+
+.fInfo{overflow:hidden;}
+.fInfo li{
+    float:left;
+}
+.fInfo li::after{
+    content:"";
+    display:inline-block;    
+    vertical-align:top;
+    width:1px;
+    height:10px;
+    background:#2d3333;
+    margin:0 5px;
+    margin-top:8px;
+}
+.fInfo li:last-child::after{
+    display:none;
+}
+.fInfo li a{}
+
+.copy{margin-top:20px;}
+
+.fSns{
+    position:absolute;
+    right:0;
+    top:50px;
+}
+.fSns li{
+    float:left;
+    margin-left:5px;
+}
+.fSns li a{}
+.fSns li img{width:25px;}
+
+
+
+
+
+
